@@ -18,7 +18,8 @@ import UseRefOne from "./Components/UseRef/UseRefOne";
 import UseRefTwo from "./Components/UseRef/UseRefTwo";
 
 /**UseContexts */
-// import UseContextType from "./Components/useContext";
+import UseContextOne from "./Components/UseContext/UseContextOne";
+import UseContextTwo from "./Components/UseContext/UseContextTwo";
 
 /**UseReducers */
 // import UseReducerType from "./Components/UseReducer";
@@ -41,8 +42,8 @@ function App() {
           <Route path="/effecttwo" element={<UseEffectTwo />} />
           <Route path="/refone" element={<UseRefOne />} />
           <Route path="/reftwo" element={<UseRefTwo />} />
-          {/* <Route path="/usecontext" element={<UseContextType />} /> */}
-          {/* <Route path="/usereducer" element={<UseReducerType />} /> */}
+          <Route path="/contextone" element={<UseContextOne />} />
+          <Route path="/contexttwo" element={<UseContextTwo />} />
         </Routes>
         <Footer />
       </Routers>

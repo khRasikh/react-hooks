@@ -63,6 +63,17 @@ export function Buttons() {
 
           <div className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 mx-5 px-3 rounded">
             <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 mx-5 px-3 rounded">
+              <Link to="/contextone">UseContext One</Link>
+            </button>
+          </div>
+          <div className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 mx-5 px-3 rounded">
+            <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 mx-5 px-3 rounded">
+              <Link to="/contexttwo">UseContext Two</Link>
+            </button>
+          </div>
+
+          <div className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 mx-5 px-3 rounded">
+            <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 mx-5 px-3 rounded">
               <Link to="/reducer">UseReducer One</Link>
             </button>
           </div>
