@@ -6,6 +6,7 @@ type values = {
   id: number;
   joined: Date;
   category: string;
+  text: string;
 };
 const GetValue = (props: values) => {
   return (
@@ -26,11 +27,7 @@ const GetValue = (props: values) => {
               <h5 className="text-gray-900 text-xl font-medium mb-2">
                 {props.name}
               </h5>
-              <p className="text-gray-700 text-base mb-4">
-                This is the second example of using Props in TypeScript-React
-                application in which I used Tailwind CSS. Now, you can move on
-                to UsState example by clicking the "Next" button below.
-              </p>
+              <p className="text-gray-700 text-base mb-4">{props.text}</p>
               {props.joined.toLocaleString()}
             </div>
             <div className="py-3 px-6 border-t border-gray-300 text-gray-600">
