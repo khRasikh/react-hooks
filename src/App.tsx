@@ -14,8 +14,8 @@ import UseStateTwo from "./Components/UseState/UseStateTwo";
 import UseEffectOne from "./Components/UseEffect/UseEffectOne";
 import UseEffectTwo from "./Components/UseEffect/UseEffectTwo";
 /**UseRefs */
-// import UseRef from "./Components/=";
-import UseRefTypeB from "./ComponentsB/UseRefB";
+import UseRefOne from "./Components/UseRef/UseRefOne";
+import UseRefTwo from "./Components/UseRef/UseRefTwo";
 
 /**UseContexts */
 // import UseContextType from "./Components/useContext";
@@ -39,8 +39,8 @@ function App() {
           <Route path="/statetwo" element={<UseStateTwo />} />
           <Route path="/effectone" element={<UseEffectOne />} />
           <Route path="/effecttwo" element={<UseEffectTwo />} />
-          {/* <Route path="/useref" element={<UseRef />} /> */}
-          <Route path="/usereftwo" element={<UseRefTypeB />} />
+          <Route path="/refone" element={<UseRefOne />} />
+          <Route path="/reftwo" element={<UseRefTwo />} />
           {/* <Route path="/usecontext" element={<UseContextType />} /> */}
           {/* <Route path="/usereducer" element={<UseReducerType />} /> */}
         </Routes>

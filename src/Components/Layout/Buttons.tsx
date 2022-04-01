@@ -52,12 +52,12 @@ export function Buttons() {
           </div>
           <div className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 mx-5 px-3 rounded">
             <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 mx-5 px-3 rounded">
-              <Link to="/ref">UseRef One</Link>
+              <Link to="/refone">UseRef One</Link>
             </button>
           </div>
           <div className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 mx-5 px-3 rounded">
             <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 mx-5 px-3 rounded">
-              <Link to="/ref">UseRef Two</Link>
+              <Link to="/reftwo">UseRef Two</Link>
             </button>
           </div>
 
