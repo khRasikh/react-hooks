@@ -5,8 +5,8 @@ import Header from "./Components/Layout/Header";
 import Buttons from "./Components/Layout/Buttons";
 
 /**Props */
-import PropsApp from "./Components/UseProps/UseProps";
-import PropsAppB from "./ComponentsB/UsePropsB";
+import PropsAppOne from "./Components/UseProps/UseProps";
+import PropsAppTwo from "./Components/UseProps/UsePropsTwo";
 /**UseStates  */
 // import UseState from "./Components/UseState";
 import UseStateTwo from "./ComponentsB/UseStateB";
@@ -33,8 +33,8 @@ function App() {
         <Routes>
           <Route path="/" element={<Buttons />} />
           <Route path="/footer" element={<Footer />} />
-          <Route path="/propsa" element={<PropsApp />} />
-          <Route path="/propsb" element={<PropsAppB />} />
+          <Route path="/propsa" element={<PropsAppOne />} />
+          <Route path="/propsb" element={<PropsAppTwo />} />
           {/* <Route path="/usestate" element={<UseState />} /> */}
           <Route path="/usestatetwo" element={<UseStateTwo />} />
           {/* <Route path="/useeffect" element={<UseEffect />} /> */}
