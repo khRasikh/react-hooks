@@ -22,7 +22,8 @@ import UseContextOne from "./Components/UseContext/UseContextOne";
 import UseContextTwo from "./Components/UseContext/UseContextTwo";
 
 /**UseReducers */
-// import UseReducerType from "./Components/UseReducer";
+import UseReducerOne from "./Components/UseReducer/UseReducerOne";
+import UseReducerTwo from "./Components/UseReducer/UseReducerTwo";
 
 import { BrowserRouter as Routers, Routes, Route } from "react-router-dom";
 
@@ -44,6 +45,8 @@ function App() {
           <Route path="/reftwo" element={<UseRefTwo />} />
           <Route path="/contextone" element={<UseContextOne />} />
           <Route path="/contexttwo" element={<UseContextTwo />} />
+          <Route path="/reducerone" element={<UseReducerOne />} />
+          <Route path="/reducertwo" element={<UseReducerTwo />} />
         </Routes>
         <Footer />
       </Routers>

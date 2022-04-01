@@ -13,7 +13,7 @@ export function Buttons() {
     { name: "UseContext Two", href: "/effecttwo" },
     { name: "UseRef One", href: "/refone" },
     { name: "UseRef Two", href: "/reftwo" },
-    { name: "UseReducer One", href: "/reduderone" },
+    { name: "UseReducer One", href: "/reducerone" },
     { name: "UseReducer Two", href: "/reducertwo" },
     { name: "UseCallBacnk", href: "/callbackone" },
     { name: "UseMemo", href: "/memoone" },
