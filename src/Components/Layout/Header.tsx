@@ -246,18 +246,20 @@ const Header = () => {
             <div className="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
               <a
                 href="/"
-                className="ml-8 whitespace-nowrap inline-flex items-center justify-center
-                px-4 py-2 border border-transparent rounded-md shadow-sm text-base
-                 font-medium text-blue bg-indigo-600 hover:bg-blue-700"
+                className="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 
+                hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 
+                dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center
+                 mr-2 mb-2"
               >
                 Sign in
               </a>
 
               <a
                 href="/"
-                className="ml-8 whitespace-nowrap inline-flex items-center justify-center
-                 px-4 py-2 border border-transparent rounded-md shadow-sm text-base
-                  font-medium text-blue bg-indigo-600 hover:bg-blue-700"
+                className="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 
+                hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 
+                dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center
+                 mr-2 mb-2"
               >
                 Sign up
               </a>

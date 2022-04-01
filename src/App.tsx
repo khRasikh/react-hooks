@@ -8,8 +8,8 @@ import Buttons from "./Components/Layout/Buttons";
 import PropsAppOne from "./Components/UseProps/UseProps";
 import PropsAppTwo from "./Components/UseProps/UsePropsTwo";
 /**UseStates  */
-// import UseState from "./Components/UseState";
-import UseStateTwo from "./ComponentsB/UseStateB";
+import UseStateOne from "./Components/UseState/UseState";
+import UseStateTwo from "./Components/UseState/UseStateTwo";
 /**UseEffects */
 // import UseEffect from "./Components/UseEffect";
 import UseEffectTwo from "./ComponentsB/UseEffectB";
@@ -35,9 +35,9 @@ function App() {
           <Route path="/footer" element={<Footer />} />
           <Route path="/propsa" element={<PropsAppOne />} />
           <Route path="/propsb" element={<PropsAppTwo />} />
-          {/* <Route path="/usestate" element={<UseState />} /> */}
-          <Route path="/usestatetwo" element={<UseStateTwo />} />
-          {/* <Route path="/useeffect" element={<UseEffect />} /> */}
+          <Route path="/usestateone" element={<UseStateOne />} />
+          <Route path="/statetwo" element={<UseStateTwo />} />
+          {/* <Route path="/effectone" element={<UseEffect />} /> */}
           <Route path="/useeffecttwo" element={<UseEffectTwo />} />
           {/* <Route path="/useref" element={<UseRef />} /> */}
           <Route path="/usereftwo" element={<UseRefTypeB />} />
