@@ -22,75 +22,75 @@ export function Buttons() {
 
           <div className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 mx-5 px-3 rounded">
             <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 mx-5 px-3 rounded">
-              <Link to="/usestate">UseState One</Link>
+              <Link to="/usestateone">UseState One</Link>
             </button>
           </div>
           <div className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 mx-5 px-3 rounded">
             <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 mx-5 px-3 rounded">
-              <Link to="/usestatetwo">UseState Two</Link>
+              <Link to="/statetwo">UseState Two</Link>
             </button>
           </div>
           <div className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 mx-5 px-3 rounded">
             <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 mx-5 px-3 rounded">
-              <Link to="/useeffect">UseEffect One</Link>
+              <Link to="/effectone">UseEffect One</Link>
             </button>
           </div>
           <div className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 mx-5 px-3 rounded">
             <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 mx-5 px-3 rounded">
-              <Link to="/useeffecttwo">UseEffect Two</Link>
+              <Link to="/effecttwo">UseEffect Two</Link>
             </button>
           </div>
           <div className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 mx-5 px-3 rounded">
             <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 mx-5 px-3 rounded">
-              <Link to="/usecontext">UseContext One</Link>
+              <Link to="/context">UseContext One</Link>
             </button>
           </div>
           <div className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 mx-5 px-3 rounded">
             <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 mx-5 px-3 rounded">
-              <Link to="/usecontexttwo">UseContext Two</Link>
+              <Link to="/contexttwo">UseContext Two</Link>
             </button>
           </div>
           <div className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 mx-5 px-3 rounded">
             <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 mx-5 px-3 rounded">
-              <Link to="/useref">UseRef One</Link>
+              <Link to="/ref">UseRef One</Link>
             </button>
           </div>
           <div className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 mx-5 px-3 rounded">
             <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 mx-5 px-3 rounded">
-              <Link to="/useref">UseRef Two</Link>
-            </button>
-          </div>
-
-          <div className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 mx-5 px-3 rounded">
-            <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 mx-5 px-3 rounded">
-              <Link to="/usereducer">UseReducer One</Link>
-            </button>
-          </div>
-          <div className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 mx-5 px-3 rounded">
-            <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 mx-5 px-3 rounded">
-              <Link to="/usereducertwo">UseReducer Two</Link>
+              <Link to="/ref">UseRef Two</Link>
             </button>
           </div>
 
           <div className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 mx-5 px-3 rounded">
             <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 mx-5 px-3 rounded">
-              <Link to="/usecallback">UseCallback</Link>
+              <Link to="/reducer">UseReducer One</Link>
             </button>
           </div>
           <div className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 mx-5 px-3 rounded">
             <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 mx-5 px-3 rounded">
-              <Link to="/usecallbacktwo">UseCallback</Link>
+              <Link to="/reducertwo">UseReducer Two</Link>
             </button>
           </div>
 
           <div className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 mx-5 px-3 rounded">
             <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 mx-5 px-3 rounded">
-              <Link to="/usememo">UseMemo</Link>
+              <Link to="/callback">UseCallback</Link>
             </button>
           </div>
           <div className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 mx-5 px-3 rounded">
             <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 mx-5 px-3 rounded">
-              <Link to="/usememotwo">UseMemo</Link>
+              <Link to="/callbacktwo">UseCallback</Link>
+            </button>
+          </div>
+
+          <div className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 mx-5 px-3 rounded">
+            <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 mx-5 px-3 rounded">
+              <Link to="/memo">UseMemo</Link>
+            </button>
+          </div>
+          <div className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 mx-5 px-3 rounded">
+            <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 mx-5 px-3 rounded">
+              <Link to="/memotwo">UseMemo</Link>
             </button>
           </div>
         </div>

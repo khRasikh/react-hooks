@@ -11,10 +11,10 @@ import PropsAppTwo from "./Components/UseProps/UsePropsTwo";
 import UseStateOne from "./Components/UseState/UseState";
 import UseStateTwo from "./Components/UseState/UseStateTwo";
 /**UseEffects */
-// import UseEffect from "./Components/UseEffect";
-import UseEffectTwo from "./ComponentsB/UseEffectB";
+import UseEffectOne from "./Components/UseEffect/UseEffectOne";
+import UseEffectTwo from "./Components/UseEffect/UseEffectTwo";
 /**UseRefs */
-// import UseRef from "./Components/UseRef";
+// import UseRef from "./Components/=";
 import UseRefTypeB from "./ComponentsB/UseRefB";
 
 /**UseContexts */
@@ -37,8 +37,8 @@ function App() {
           <Route path="/propsb" element={<PropsAppTwo />} />
           <Route path="/usestateone" element={<UseStateOne />} />
           <Route path="/statetwo" element={<UseStateTwo />} />
-          {/* <Route path="/effectone" element={<UseEffect />} /> */}
-          <Route path="/useeffecttwo" element={<UseEffectTwo />} />
+          <Route path="/effectone" element={<UseEffectOne />} />
+          <Route path="/effecttwo" element={<UseEffectTwo />} />
           {/* <Route path="/useref" element={<UseRef />} /> */}
           <Route path="/usereftwo" element={<UseRefTypeB />} />
           {/* <Route path="/usecontext" element={<UseContextType />} /> */}
