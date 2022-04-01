@@ -23,17 +23,7 @@ export const ContextProvider = ({ children }: ContextPoroviderProps) => {
 const UseContextType = () => {
   return (
     <div className="px-6 py-6 mx-6 my-6">
-      <button
-        type="button"
-        className="flex items-stretch text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 
-        hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 
-        dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center
-         mr-2 mb-2"
-      >
-        <Link to="/">Home</Link>
-      </button>
       <ContextProvider>
-        <h2>Following is how I used context in my app:</h2>
         <Box />
       </ContextProvider>
     </div>
@@ -46,14 +36,47 @@ export const Box = () => {
   // return <div style={{ color: getVal.primary.text }}>My Context</div>;
   return (
     <div>
-      <div className="block items-stretch px-4 py-4 mx-4 my-4">
-        <p style={{ color: getVal.text }}>
-          Welcome dear <b>{getVal.name}</b>
-        </p>
-        <p>
-          {".   "}We have found your <b>ID No: </b>
-          {getVal.id}
-        </p>
+      <div className="block text-center px-6 mx-6 py-6">
+        <h2 className="flex justify-center font-medium mb-3 text-xl mb-9">
+          <b>TypeScrit-React: </b>Here you see how I used UseContext Example:
+        </h2>
+
+        <div className="my-5"></div>
+
+        <div className="flex justify-center">
+          <div className="block rounded-lg shadow-lg bg-white max-w-sm text-center">
+            <div className="py-3 px-6 border-b border-gray-300">
+              UseContext Hook Example One
+            </div>
+            <div className="block items-stretch px-4 py-4 mx-4 my-4">
+              <p style={{ color: getVal.text }}>
+                Welcome dear <b>{getVal.name}</b>
+              </p>
+              <p>
+                {".   "}We have found your <b>ID No: </b>
+                {getVal.id}
+              </p>
+            </div>
+            <div className="py-3 px-6 border-t border-gray-300 text-gray-600">
+              <Link to="/reftwo">
+                <button
+                  type="button"
+                  className=" inline-block mx-2 px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
+                >
+                  Back
+                </button>
+              </Link>
+              <Link to="/contexttwo">
+                <button
+                  type="button"
+                  className=" inline-block mx-2 px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
+                >
+                  Next
+                </button>
+              </Link>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );

@@ -1,111 +1,47 @@
 import { Link } from "react-router-dom";
 
+/**Data for Buttons */
 export function Buttons() {
+  const list = [
+    { name: "Props One", href: "/propsa" },
+    { name: "Props Two", href: "/propsb" },
+    { name: "UseState One", href: "/usestateone" },
+    { name: "UseState Two", href: "/statetwo" },
+    { name: "UseEffect One", href: "/effectone" },
+    { name: "UseEffect Two", href: "/effecttwo" },
+    { name: "UseContext One", href: "/effectone" },
+    { name: "UseContext Two", href: "/effecttwo" },
+    { name: "UseRef One", href: "/refone" },
+    { name: "UseRef Two", href: "/reftwo" },
+    { name: "UseReducer One", href: "/reduderone" },
+    { name: "UseReducer Two", href: "/reducertwo" },
+    { name: "UseCallBacnk", href: "/callbackone" },
+    { name: "UseMemo", href: "/memoone" },
+  ];
   return (
     <>
       <div className="px-3 py-3 my-3 bg-white-400"></div>
 
-      <div className="my-4"></div>
       <div className="container mx-auto">
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-          <div className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 mx-5 px-3 rounded">
-            <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 mx-5 px-3 rounded">
-              <Link to="/propsa">Props One</Link>
-            </button>
-          </div>
-
-          <div className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 mx-5 px-3 rounded">
-            <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 mx-5 px-3 rounded">
-              <Link to="/propsb">Props Two</Link>
-            </button>
-          </div>
-
-          <div className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 mx-5 px-3 rounded">
-            <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 mx-5 px-3 rounded">
-              <Link to="/usestateone">UseState One</Link>
-            </button>
-          </div>
-          <div className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 mx-5 px-3 rounded">
-            <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 mx-5 px-3 rounded">
-              <Link to="/statetwo">UseState Two</Link>
-            </button>
-          </div>
-          <div className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 mx-5 px-3 rounded">
-            <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 mx-5 px-3 rounded">
-              <Link to="/effectone">UseEffect One</Link>
-            </button>
-          </div>
-          <div className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 mx-5 px-3 rounded">
-            <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 mx-5 px-3 rounded">
-              <Link to="/effecttwo">UseEffect Two</Link>
-            </button>
-          </div>
-          <div className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 mx-5 px-3 rounded">
-            <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 mx-5 px-3 rounded">
-              <Link to="/context">UseContext One</Link>
-            </button>
-          </div>
-          <div className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 mx-5 px-3 rounded">
-            <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 mx-5 px-3 rounded">
-              <Link to="/contexttwo">UseContext Two</Link>
-            </button>
-          </div>
-          <div className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 mx-5 px-3 rounded">
-            <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 mx-5 px-3 rounded">
-              <Link to="/refone">UseRef One</Link>
-            </button>
-          </div>
-          <div className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 mx-5 px-3 rounded">
-            <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 mx-5 px-3 rounded">
-              <Link to="/reftwo">UseRef Two</Link>
-            </button>
-          </div>
-
-          <div className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 mx-5 px-3 rounded">
-            <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 mx-5 px-3 rounded">
-              <Link to="/contextone">UseContext One</Link>
-            </button>
-          </div>
-          <div className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 mx-5 px-3 rounded">
-            <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 mx-5 px-3 rounded">
-              <Link to="/contexttwo">UseContext Two</Link>
-            </button>
-          </div>
-
-          <div className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 mx-5 px-3 rounded">
-            <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 mx-5 px-3 rounded">
-              <Link to="/reducer">UseReducer One</Link>
-            </button>
-          </div>
-          <div className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 mx-5 px-3 rounded">
-            <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 mx-5 px-3 rounded">
-              <Link to="/reducertwo">UseReducer Two</Link>
-            </button>
-          </div>
-
-          <div className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 mx-5 px-3 rounded">
-            <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 mx-5 px-3 rounded">
-              <Link to="/callback">UseCallback</Link>
-            </button>
-          </div>
-          <div className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 mx-5 px-3 rounded">
-            <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 mx-5 px-3 rounded">
-              <Link to="/callbacktwo">UseCallback</Link>
-            </button>
-          </div>
-
-          <div className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 mx-5 px-3 rounded">
-            <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 mx-5 px-3 rounded">
-              <Link to="/memo">UseMemo</Link>
-            </button>
-          </div>
-          <div className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 mx-5 px-3 rounded">
-            <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 mx-5 px-3 rounded">
-              <Link to="/memotwo">UseMemo</Link>
-            </button>
-          </div>
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 justify text-center gap-6">
+          {list.map((item) => (
+            <a
+              key={item.name}
+              href={item.href}
+              className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
+            >
+              <div className="container max-auto">
+                <div className="justify-text">
+                  <div className="block bg-blue-500 hover:bg-blue-700 text-white font-bold py-4 mx-5 px-4 rounded">
+                    {item.name}
+                  </div>
+                </div>
+              </div>
+            </a>
+          ))}
         </div>
       </div>
+
       <div className="px-3 py-3 my-3 bg-white-400"></div>
     </>
   );
