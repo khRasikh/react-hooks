@@ -15,8 +15,9 @@ export function Buttons() {
     { name: "UseRef Two", href: "/reftwo" },
     { name: "UseReducer One", href: "/reducerone" },
     { name: "UseReducer Two", href: "/reducertwo" },
-    { name: "UseCallBacnk", href: "/callbackone" },
-    { name: "UseMemo", href: "/memoone" },
+    { name: "Callback One", href: "/callbackone" },
+    { name: "Callback Two", href: "/callbacktwo" },
+    { name: "My Todo List", href: "/todolist" },
   ];
   return (
     <>
