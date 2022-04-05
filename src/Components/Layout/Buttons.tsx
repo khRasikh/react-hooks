@@ -1,5 +1,3 @@
-import { Link } from "react-router-dom";
-
 /**Data for Buttons */
 export function Buttons() {
   const list = [

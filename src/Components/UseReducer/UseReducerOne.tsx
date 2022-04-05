@@ -1,8 +1,6 @@
 /**In this example, I'd like to practice useReducer Hook component in TypeScript React.
  *Based on its functions, I need to perform the following steps: */
 /**1. Import useReducer from React  */
-import { stat } from "fs";
-import { type } from "os";
 import React, { useReducer } from "react";
 import { Link } from "react-router-dom";
 /**2. Initialize the state */

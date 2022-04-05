@@ -1,4 +1,3 @@
-import React from "react";
 import { Link } from "react-router-dom";
 /**1. In this example, I used some very simple and easy examples of
  * Props in React-TypeScript. Let's get started the first Example:
@@ -26,12 +25,8 @@ const TagName = (props: TagProps) => {
             {props.name + " "}
             {props.lastName}
           </h5>
-          <p className="text-gray-700 text-base mb-4">
-            {"Email " + ": " + props.email}
-          </p>
-          <p className="text-gray-700 text-base mb-4">
-            {"Phone " + ": " + props.phone}
-          </p>
+          <p className="text-gray-700 text-base mb-4">Email: {props.email}</p>
+          <p className="text-gray-700 text-base mb-4">Phone: {props.phone}</p>
           <Link to="/">
             <button
               type="button"
