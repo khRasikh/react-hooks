@@ -7,7 +7,7 @@ const UseStateOne = () => {
   return (
     <>
       <div className="block text-center px-6 mx-6 py-6">
-        <h2 className="flex justify-center font-medium mb-3 text-xl mb-9">
+        <h2 className="flex justify-center">
           <b>TypeScrit-React: </b>Here you see how I used UseState Example:
         </h2>
 
@@ -20,7 +20,7 @@ const UseStateOne = () => {
             </div>
             <div className="p-6">
               <p className="px-4 py-4">Click on the following buttons: </p>
-              <h5 className="block justify-center text-gray-900 text-xl font-medium mb-2">
+              <h5 className="block justify-center text-gray-900 text-xl font-medium">
                 {0}
               </h5>
               <button

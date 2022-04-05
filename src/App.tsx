@@ -30,7 +30,7 @@ import UseCallbackOne from "./Components/UseCallback/UseCallbackOne";
 import UseCallbackTwo from "./Components/UseCallback/UseCallbackTwo";
 
 /**TodoApp */
-import List from "./TodoApp/TodoList";
+import TodoAPP from "./TodoApp/MyTodoList";
 
 /**Routes */
 import { BrowserRouter as Routers, Routes, Route } from "react-router-dom";
@@ -57,7 +57,7 @@ function App() {
           <Route path="/reducertwo" element={<UseReducerTwo />} />
           <Route path="/callbackone" element={<UseCallbackOne />} />
           <Route path="/callbacktwo" element={<UseCallbackTwo />} />
-          <Route path="/todolist" element={<List />} />
+          <Route path="/todolist" element={<TodoAPP />} />
         </Routes>
         <Footer />
       </Routers>
