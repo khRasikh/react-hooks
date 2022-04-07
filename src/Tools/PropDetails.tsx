@@ -12,7 +12,7 @@ const GetValue = (props: values) => {
   return (
     <>
       <div className="px-6 mx-6 py-6">
-        <h2 className="flex justify-center font-medium mb-3 text-xl mb-9">
+        <h2 className="flex justify-center font-medium">
           Welcome dear {props.name}
         </h2>
 

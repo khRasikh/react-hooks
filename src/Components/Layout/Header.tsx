@@ -96,12 +96,24 @@ const Header = () => {
               </Popover.Button>
             </div>
             <Popover.Group as="nav" className="hidden md:flex space-x-10">
+              <input
+                type="text"
+                className="placeholder-slate-300 text-slate-400 relative rounded text-sm border border-slate-300 outline-none focus:outline-none focus:ring px-5 py-1.5"
+                placeholder="search..."
+                onKeyUp={() => {
+                  let c = 0;
+                  c += 1;
+                  alert("Hi from onKeyUp" + c);
+                  return c;
+                }}
+              />
               <a
                 href="/"
                 className="text-base font-medium text-gray-800 hover:text-gray-1200"
               >
                 Home
               </a>
+
               <Popover className="relative">
                 {({ open }) => (
                   <>
