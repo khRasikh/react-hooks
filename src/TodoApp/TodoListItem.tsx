@@ -18,7 +18,7 @@ export const TodoListItem: React.FC<TodoListItemProps> = ({
           type="checkbox"
           onChange={() => toggleComplete(todo)}
           checked={todo.complete}
-          className=""
+          className="mx-2 py-1 text-bold"
         />
         {todo.text}
       </label>
